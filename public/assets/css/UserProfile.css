@@ -1,0 +1,71 @@
+.modal {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.modal_content {
+  background-color: white;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 60%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.close {
+  color: Black;
+  float: right;
+}
+
+.close:hover {
+  color: red;
+  cursor: pointer;
+}
+#fName{
+  position: absolute;
+  left: 20%;width: 28%;
+  top: 35%;height: 6%; 
+  border-radius: 5px;
+  font-size: 18px;
+}
+#lName{
+  position: absolute;
+  right: 20%;width: 28%;
+  top: 35%;height: 6%; 
+  border-radius: 5px;
+  font-size: 18px;
+}
+#organisation{
+  position: absolute;
+  left: 20%;width: 28%;
+  top: 45%;height: 6%; 
+  border-radius: 5px;
+  font-size: 18px;
+
+}
+#emailID{
+  position: absolute;
+  right: 20%;width: 28%;
+  top: 45%;height: 6%; 
+  border-radius: 5px;
+  font-size: 18px;
+}
+#pass{
+  position: absolute;
+  left: 20%;width: 28%;
+  top: 55%;height: 6%; 
+  border-radius: 5px;
+  font-size: 18px;
+}
+#pass2{
+  position: absolute;
+  right: 20%;width: 28%;
+  top: 55%;height: 6%; 
+  border-radius: 5px;
+  font-size: 18px;
+}
