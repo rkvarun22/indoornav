@@ -16,6 +16,8 @@ import Annotate from './containers/Annotate';
 import EditMap from './containers/EditMap';
 import Venue from './containers/Venue';
 import UserProfile from './containers/UserProfile';
+import SignUpForm from './containers/SignUpForm';
+import LogInForm from './containers/LogInForm';
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function App() {
             <Route  exact path='/EditMap' component={EditMap} />
             <Route  exact path='/Venue' component={Venue} />
             <Route  exact path='/UserProfile' component={UserProfile} />
+            <Route  exact path='/SignUpForm' component={SignUpForm} />
+            <Route  exact path='/LogInForm' component={LogInForm} />
           </Route>
         </Switch>
       </Router>

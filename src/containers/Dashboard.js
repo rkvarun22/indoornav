@@ -12,18 +12,19 @@ class Dashboard extends React.Component{
     <div className="addVenue btn"><Link to="/AddVenue">Add new Venue</Link></div>
     <div className="DP">First name Last name</div>
     <div className="nav"></div>
-    <div className="div6">
+    <div className="dash1">
      <p className="btn"><Link to="/VenueDash">Sample Venue 1</Link><br/><br/>
      Buildings : 05
        <br/>
        Annotated Area : 200 sqm
+       
      </p>
      <p></p>
      <div className="edit btn"><Link to="/AddVenue">Edit </Link></div>
      <div className="delete btn" ><Link to="/DeleteVenue">Delete</Link></div>
     </div>
-    <div className="div7">
-      <p>Sample Venue 2<br/><br/>
+    <div className="dash2">
+      <p className="btn">Sample Venue 2<br/><br/>
         Buildings : 02
           <br/>
           Annotated Area : 100 sqm
@@ -32,8 +33,8 @@ class Dashboard extends React.Component{
         <div className="edit btn"> Edit </div>
         <div className="delete btn">Delete</div>
     </div>
-    <div className="div8">
-      <p>Sample Venue 3<br/><br/>
+    <div className="dash3">
+      <p className="btn">Sample Venue 3<br/><br/>
         Buildings : 05
           <br/>
           Annotated Area : 400 sqm
@@ -42,7 +43,7 @@ class Dashboard extends React.Component{
         <div className="edit btn"> Edit </div>
         <div className="delete btn">Delete</div>
     </div>
-    <div className="div9"><p>Sample Venue 4<br/><br/>
+    <div className="dash4"><p className="btn">Sample Venue 4<br/><br/>
       Buildings : 10
         <br/>
         Annotated Area : 2000 sqm
@@ -50,7 +51,7 @@ class Dashboard extends React.Component{
       <p></p>
       <div className="edit btn"> Edit </div>
       <div className="delete btn">Delete</div></div>
-    <div className="div10"><p>Sample Venue 5<br/><br/>
+    <div className="dash5"><p className="btn">Sample Venue 5<br/><br/>
       Buildings : 01
         <br/>
         Annotated Area : 50 sqm

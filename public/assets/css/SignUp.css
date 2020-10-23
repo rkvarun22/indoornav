@@ -1,3 +1,17 @@
+.logLogo { 
+  grid-area: 4 / 4 / 6 / 6;
+  background-image: url("../images/inclunav.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.loginBrand { 
+  grid-area: 6 / 4 / 7 / 6; 
+  text-align: center;
+  color: var(--font-brand);
+  font-weight: 600;font-size: 22px;
+}
+
 .firstname { 
   grid-area: 3 / 9 / 4 / 12; 
   position: relative;
@@ -29,7 +43,8 @@
 .pass { 
   grid-area: 5 / 9 / 6 / 12; 
   position: relative;
-  height: 50%;top: 50%;width: 100%;
+  height: 50%;top: 50%;
+  width: 100%;
   border: 1px solid var(--font-dark);
   display: grid;  place-items: center; 
 }
