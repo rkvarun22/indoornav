@@ -23,10 +23,18 @@ class Venue extends React.Component{
                     <div className="help btn" onclick="funHelp()"> Help</div>
                     <div className="profile btn" onClick={this.togglePop}>First Name</div>
                     {this.state.seen ? <UserProfile toggle={this.togglePop} /> : null}
+                    {this.state.showPopup ? 
+                        <UserProfile
+                          text='Close Me'
+                          closePopup={this.togglePopup.bind(this)}
+                       />
+                       : null
+                    }
                     <div className="addVenue btn" onclick="window.open('AddLevel.html')"> Add new<br/>&nbsp;&nbsp;Venue</div>
                 </div>
+
             </div>
-        )
+        );
     }
     
 }
